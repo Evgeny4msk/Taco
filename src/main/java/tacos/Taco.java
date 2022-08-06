@@ -11,6 +11,6 @@ import javax.validation.constraints.Size;
 public class Taco {
     @NonNull
     private String name;
-
+@NotNull
     private List<Ingredient> ingredients;
 }
